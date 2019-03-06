@@ -238,3 +238,24 @@ input {
     background-position: -84px 0;
     width: 24px;
 }
+.homework-link{
+    width: 100px;
+    float: left;
+    position: fixed;
+    left: 10px;
+    top: 10%;
+    background-color: lightskyblue;
+    text-align: center;
+    border-radius: 30px;
+}
+.homework-link li{
+    list-style:none;
+    margin-top: 10px;
+}
+.homework-link a{
+    text-decoration: none;
+    color: #666;
+}
+.homework-link a:hover{
+    text-decoration: underline;
+}
