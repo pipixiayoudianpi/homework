@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+.tittle{
+    text-align: center;
+    background-color: #E0FFFF;
+    line-height: 60px;
+}
+div{
+    width: 400px;
+    /* height: 650px; */
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid silver;
+    background-image:url("../images/背景.jpg");
+}
+.in{
+    width: 280px;
+    height: 30px;
+}
+.baidu{
+    background-color: aquamarine;
+    color: #333;
+    width: 100px;
+    height: 34px;
+    border: 1px solid springgreen;
+}
+.head{
+    color: deepskyblue;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.img2{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    color: #333;
+    padding: 5px;
+    margin-top: 15px;
+}
