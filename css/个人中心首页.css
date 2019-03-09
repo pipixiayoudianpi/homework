@@ -1,0 +1,84 @@
+*{
+    margin: 0;padding: 0;
+}
+.main{
+    width: 790px;
+    height: 150px;
+    border: 1px solid rgb(230,230,230);
+    background-color: #EDEDED;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+p{
+    color: #545454;
+    position: absolute;
+}
+.computer{
+    margin: 20px 0 20px 40px;
+}
+.user-name{
+    font-size: 20px;
+    top: 30px;
+    left: 160px;
+}
+.grades{
+    font-size: 16px;
+    top: 70px;
+    left: 160px;
+}
+.message{
+    font-size: 16px;
+    top: 95px;
+    left: 160px;
+}
+.cut-line{
+    border-left: 1px solid #CFCFCF;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 350px;
+    top: 25px;
+}
+.main a{
+    color: #19BEBE;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.wechat-logo{
+    position: absolute;
+    left: 370px;
+    top: 56.5px;
+}
+.wechat-bind{
+    position: absolute;
+    left: 415px;
+    top: 55px;
+    font-size: 12px;
+}
+.wechat-state{
+    position: absolute;
+    left: 415px;
+    top:75px;
+    font-size: 12px;
+}
+.phone-logo{
+    position: absolute;
+    left: 570px;
+    top: 56.5px;
+}
+.phone-bind{
+    position: absolute;
+    left: 615px;
+    top: 55px;
+    font-size: 12px;
+}
+.phone-state{
+    position: absolute;
+    left: 615px;
+    top:75px;
+    font-size: 12px;
+}

@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+.top {
+    width: 100%;
+    height: 70px;
+    background: #18BEBE url('../images/home.png') no-repeat center center;
+
+}
+
+.nav {
+    width: 100%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eee;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.nav-child {
+    width: 1000px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.nav-locate-a {
+    text-decoration: none;
+}
+
+.nav-locate-a:hover {
+    text-decoration: underline;
+}
+
+#nav-locate {
+    color: #18BEBE;
+}
+
+.p-locate {
+    position: absolute;
+    left: 50px;
+    top: 0;
+}
+
+#nav-left-arrow {
+    position: absolute;
+    left: 95px;
+    top: 0;
+}
+
+.nav-changeplace {
+    position: absolute;
+    left: 110px;
+    top: 0;
+}
+
+#nav-right-arrow {
+    position: absolute;
+    left: 140px;
+    top: 0;
+}
+
+.nav-shouye {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+}
+
+.nav-zixun {
+    position: absolute;
+    top: 0;
+    left: 400px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+}
+
+.nav-ceping {
+    position: absolute;
+    top: 0;
+    left: 500px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+}
+
+.nav-shop {
+    position: absolute;
+    top: 0;
+    left: 600px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+}
+
+.nav-shouye:hover {
+    background-color: #18BEBE;
+    color: white;
+}
+
+.nav-zixun:hover {
+    background-color: #18BEBE;
+    color: white;
+}
+
+.nav-ceping:hover {
+    background-color: #18BEBE;
+    color: white;
+}
+
+.nav-shop:hover {
+    background-color: #18BEBE;
+    color: white;
+}
+
+.nav-user {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: orange;
+}
+
+.nav-user:hover {
+    text-decoration: underline;
+}
+
+.main {
+    width: 1000px;
+    overflow: hidden;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.active {
+    border-left: 2px solid #1AC0C0 !important;
+    border-top: 2px solid rgb(230, 230, 230) !important;
+    border-right: 2px solid rgb(230, 230, 230) !important;
+    border-bottom: 2px solid rgb(230, 230, 230) !important;
+    background-color: #EBEBEB !important;
+}
+
+.user {
+    line-height: 80px;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.user a:active {
+    color: #36C6C6;
+    box-sizing: border-box;
+}
+
+.under-user {
+    margin-top: 10px !important;
+}
+
+.side>li {
+    margin-top: 30px;
+    font-size: 18px;
+    box-sizing: border-box;
+    /* padding-left: 30px; */
+    font-weight: 700;
+    color: #666;
+}
+.blank{
+    border: 1px #EBEBEB;
+    margin-right: 25px;
+}
+
+.side>li>ul>li {
+    font-size: 16px;
+    padding-left: 39px;
+}
+
+.side>li>ul {
+    margin-top: 10px;
+}
+
+.main a {
+    text-decoration: none;
+    color: #666;
+}
+
+.main li {
+    list-style: none;
+    text-align: left;
+    border: 2px solid #F0F0F0;
+}
+
+.open {
+    margin: auto;
+    width: 12px;
+    height: 12px;
+}
+
+.side-nav {
+    box-sizing: border-box;
+    float: left;
+    width: 200px;
+    background: #F0F0F0;
+}
+
+.inside-iframe {
+    margin-left: 210px;
+    box-sizing: border-box;
+    width: 790px;
+    height: 900px;
+    background: #F0F0F0;
+}
+
+.bottom {
+    margin-top: 10px;
+    background-color: #515151;
+    width: 100%;
+    height: 250px;
+    clear: both;
+}
+
+.bottom-wrap {
+    width: 1000px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    padding-top: 30px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.bottom-wrap-declaration {
+    color: white;
+    font-weight: 1000;
+    position: absolute;
+    top: 100px;
+    font-size: 14px;
+}
+
+.bottom-wrap-explain {
+    color: #eee;
+    position: absolute;
+    top: 125px;
+    font-size: 11px;
+}
+
+.bottom-wrap-explains {
+    color: #eee;
+    position: absolute;
+    top: 150px;
+    font-size: 11px;
+}
+
+.bottom-wrap a {
+    color: #eee;
+    text-decoration: none;
+}
+
+.bottom-wrap a:hover {
+    text-decoration: underline;
+}
+
+.bottom-hr {
+    position: absolute;
+    top: 200px;
+    width: 1100px;
+    border: 0;
+    border-bottom: 2px solid rgb(165, 164, 164);
+}
+
+.aboutus {
+    position: absolute;
+    top: 80px;
+    left: 450px;
+}
+
+.connect {
+    position: absolute;
+    top: 115px;
+    left: 450px;
+}
+
+.join {
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}
+
+.copyright {
+    position: absolute;
+    top: 80px;
+    left: 600px;
+}
+
+.privacy {
+    position: absolute;
+    top: 115px;
+    left: 600px;
+}
+
+.disclaimer {
+    position: absolute;
+    top: 150px;
+    left: 600px;
+}
+
+.wechat {
+    position: absolute;
+    top: 80px;
+    left: 800px;
+}
+
+.Tmall {
+    position: absolute;
+    top: 115px;
+    left: 800px;
+}
+
+.store {
+    position: absolute;
+    top: 150px;
+    left: 800px;
+}
+
+.bottom-wrap a {
+    font-size: 12px;
+}
+
+.bottom-wechat {
+    position: absolute;
+    top: 78px;
+    left: 770px;
+}
+
+.bottom-Tmall {
+    position: absolute;
+    top: 112px;
+    left: 770px;
+}
+
+.bottom-youzan {
+    position: absolute;
+    top: 149px;
+    left: 770px;
+}
+
+.company {
+    position: absolute;
+    top: 220px;
+    left: 0px;
+    color: #eee;
+    font-size: 12px;
+}
+
+.website {
+    position: absolute;
+    top: 220px;
+    left: 190px;
+    color: #eee;
+    font-size: 12px;
+}
+
+.copyright-number {
+    position: absolute;
+    top: 220px;
+    right: 0px;
+    color: #eee;
+    font-size: 12px;
+}
+.screen{
+    width: 790px;
+    height: 900px;
+}
+.homework-link{
+    width: 100px;
+    float: left;
+    position: fixed;
+    left: 10px;
+    top: 10%;
+    background-color: lightskyblue;
+    text-align: center;
+    border-radius: 30px;
+}
+.homework-link li{
+    list-style:none;
+    margin-top: 10px;
+}
+.homework-link a{
+    text-decoration: none;
+    color: #666;
+}
+.homework-link a:hover{
+    text-decoration: underline;
+}
