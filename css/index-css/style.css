@@ -206,15 +206,11 @@ li > a:only-child:after {
     content: '';
 }
 .return{
-    height: 30px;
-    width: 30px;
     position: fixed;
     right: 0;
     bottom:20%;
-    border: 1px solid #999999;
     text-align: center;
 }
-
 /* Media Queries
 --------------------------------------------- */
 
