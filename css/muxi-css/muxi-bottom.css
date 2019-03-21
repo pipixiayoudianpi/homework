@@ -1,0 +1,33 @@
+.bottom-outside{
+    background:#ddd;
+    overflow: hidden;
+}
+.bottom{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #777;
+}
+.bottom-go .top{
+    margin-top: 7%;
+}
+.bottom-phone{
+    margin-top: 1.5%;
+}
+.top a:hover{
+    text-decoration: none;
+    color: #2dae36;
+}
+.top a:focus{
+    text-decoration: none;
+}
+.top a{
+    color: #777
+}
+.bottom-logo img{
+    width: 100px;
+    height: 72px;
+    margin-top: 20px;
+}

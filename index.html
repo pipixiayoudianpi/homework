@@ -1,44 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>诗意生活</title>
-    <link rel="stylesheet" href="css/index.css">
+	<title>吾</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<meta name="keywords" content="个人网站" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="css/index-css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/index-css/fontawesome-all.min.css" rel="stylesheet">
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+	<!-- online-fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_1066462_343h85pyvhq.css">
+	<!-- //online-fonts -->
 </head>
+
 <body>
-    <div class="homework-link">
-        <ul>
-            <li><a class="personer-website" href="html/个人网站.html">个人网站</a></li>
-            <li><a class="about-yuanda" href="html/关于远大.html">关于远大</a></li>
-            <li><a class="floor-evaluation" href="html/地板评测.html">地板评测</a></li>
-            <li><a class="store" href="html/商城.html">商城</a></li>
-            <li> <a href="html/小米商城.html">小米商城</a></li>
-            <li> <a href="html/个人中心.html">个人中心</a></li>
-            <li><a href="html/木兮地板.html">木兮地板</a></li>
-        </ul>
-    </div>
-    <h3 class="tittle">诗意生活</h3>
-    <div>
-        <h4 class="head">除了生活还有诗和远方</h4>
-        <img class="img" src="images/背影.jpg" width="400px">
-        <p class="body">人生至少有两次冲动，一次为了奋不顾身的爱情，一次为了说走就走的旅行。终于发现，我所拥有的，竟是如此繁华。一个人，才不会孤单。人生最好的旅行，就是你在一个陌生的地方，发现一种久违的感动。有一种旅行，不为跋涉千里的向往，只为漫无目的的闲逛，不为人 山人海的名胜，只为怡然自乐的街景。</p>
-        <h4 class="second">关于旅行:</h4>
-        <ul>
-            <li>因为有梦，所以勇敢出发，选择出发，便只顾风雨兼程。</li>
-            <li>如果你不出去走走，你就会以为这就是世界。</li>
-            <li>当你下定决心准备出发时，最困难的时刻就已经过去了。那么，出发吧。</li>
-        </ul>
-        <dl>
-            <dt>
-                尼采说:
-            </dt>
-            <dd>
-                对待生命你不妨大胆点，因为它终将离你远去
-            </dd>
-        </dl>
-    </div>
-   
+	<div class="sidenav text-center">
+		<div class="side_top">
+			<img src="images/index-images/bug.jpg" alt="news image" class="img-fluid navimg" style="width:100px;height:100px;">
+			<h1 class="top_hd mt-2"><a href="index.html">黄文杰</a></h1>
+			<p class="top_hdp mt-2">一杯茶，一包烟，一个BUG改一天</p>
+		</div>
+		<!-- header -->
+		<header>
+			<div class="nav-top">
+				<nav class="mnu mx-auto">
+					<label for="drop" class="toggle">菜单</label>
+					<input type="checkbox" id="drop">
+					<ul class="menu">
+						<li class="active"><a href="#home" class="scroll">首页</a></li>
+						<li class="mt-sm-3"><a href="#about" class="scroll">关于我</a></li>
+						<!-- <li class="mt-sm-3"><a href="#services" class="scroll">Services</a></li> -->
+						<li class="mt-sm-3"><a href="#news" class="scroll">作品</a></li>
+						<li class="mt-sm-3"><a href="#contact" class="scroll">联系我</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- //header -->
+	</div>
+	<script>
+		$(".menu>li").click(function () {
+			$(this).addClass("active").siblings().removeClass("active");
+		})
+	</script>
+	<div class="main">
+		<div class="banner-text-w3ls" id="home">
+			<div class="container">
+				<div class="mx-auto text-center">
+					<h3 style="color:lightskyblue"><br></h3>
+					<p class="banp mx-auto mt-3">要笑的比它更开心 </p>
+					<a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#about" role="button">了解更多</a>
+				</div>
+			</div>
+		</div>
+		<!-- about -->
+		<section class="slide-wrapper" id="about">
+			<h2 class="w3_head mb-4">关于我</h2>
+			<h4 class="main_hd">不是很有趣的灵魂<br>更没有好看的皮囊<br>只有写不完的BUG
+			</h4>
+			<p class="iner mt-md-5">21岁，直男一枚，喜欢打LOL和刺激战场。<br>2016年进入武汉工程大学，选择了我早就考虑好的计算机学院，再分到软件工程专业。默默无闻，一介小生。大一到大二一路挂过来，大三终于不再挂科了<br>虽是咸鱼一条，但梦想还是要有的<br>为了诗和远方，我决定考研，暂定武汉理工大学计算机学院学术硕士</p>
+		</section>
+		<div class="news" id="news">
+			<h3 class="w3_head mb-4 text-left">我的作品</h3>
+			<p class="iner mt-md-5 text-left">
+				我2019年2月25日前往镇江软通极客人才学院实习，选择了H5方向。在为期一个月的学习中，初步掌握了html，CSS，JavaScript，jQuery，vue还有微信小程序的开发等知识，能做一些简单的网页，下面是我的作品。
+			</p>
+			<div class="row news-grids-left mt-5">
+				<div class="col-lg-5 news_top">
+					<img src="images/index-images/诗意生活.png" alt="news image" class="img-fluid">
+				</div>
+				<div class="col-lg-7 news_top1">
+					<h5><a href="html/诗意生活.html">第一次作业，诗意生活</a></h5>
+					<p class="mt-3">初次接触html，学习了一些基础常用标签，div标签，h标签，p标签，ul、li标签</p>
+				</div>
+			</div>
+			<div class="row news-grids-middle">
+				<div class="col-lg-5 news_top">
+					<img src="images/index-images/个人网站.png" alt="news image" class="img-fluid">
+				</div>
+				<div class="col-lg-7 news_top1">
+					<h5><a href="html/个人网站.html">第二次作业，个人网站</a></h5>
+					<p class="mt-3">学习了input输入框和button按钮以及超链接a标签的用法</p>
+				</div>
+			</div>
+			<div class="row news-grids-middle">
+				<div class="col-lg-5 news_top">
+					<img src="images/index-images/关于远大.png" alt="news image" class="img-fluid">
+				</div>
+				<div class="col-lg-7 news_top1">
+					<h5><a href="html/关于远大.html">第三次作业，关于远大</a></h5>
+					<p class="mt-3">掌握了导航栏中的a标签如何美化，背景图片居中的方法</p>
+				</div>
+			</div>
+			<div class="row news-grids-middle">
+				<div class="col-lg-5 news_top">
+					<img src="images/index-images/地板评测.png" alt="news image" class="img-fluid">
+				</div>
+				<div class="col-lg-7 news_top1">
+					<h5><a href="html/地板评测.html">第四次作业，地板评测</a></h5>
+					<p class="mt-3">新学习了html中表格的用法</p>
+				</div>
+			</div>
+			<div class="row news-grids-middle">
+				<div class="col-lg-5 news_top">
+					<img src="images/index-images/地板商城.png" alt="news image" class="img-fluid">
+				</div>
+				<div class="col-lg-7 news_top1">
+					<h5><a href="html/地板商城.html">第五次作业，地板商城</a></h5>
+					<p class="mt-3">综合多种标签，做出一个简单的商城界面</p>
+				</div>
+			</div>
+			<div class="row news-grids-middle">
+				<div class="col-lg-5 news_top">
+					<img src="images/index-images/小米登录.png" alt="news image" class="img-fluid">
+				</div>
+				<div class="col-lg-7 news_top1">
+					<h5><a href="html/小米登录.html">第六次作业，小米登录</a></h5>
+					<p class="mt-3">小米登录界面，初次使用jQuery，实现账号登录与扫码登录界面的切换</p>
+				</div>
+			</div>
+			<div class="row news-grids-middle">
+				<div class="col-lg-5 news_top">
+					<img src="images/index-images/小米官网.png" alt="news image" class="img-fluid">
+				</div>
+				<div class="col-lg-7 news_top1">
+					<h5><a href="html/小米官网.html">第七次作业，小米官网</a></h5>
+					<p class="mt-3">综合应用，小米官网首页</p>
+				</div>
+			</div>
+			<div class="row news-grids-middle">
+				<div class="col-lg-5 news_top">
+					<img src="images/index-images/个人中心.png" alt="news image" class="img-fluid">
+				</div>
+				<div class="col-lg-7 news_top1">
+					<h5><a href="html/个人中心.html">第八次作业，地板商城的个人中心</a></h5>
+					<p class="mt-3">用iframe实现页面内html的切换</p>
+				</div>
+			</div>
+
+			<div class="row news-grids-right">
+				<div class="col-lg-5 news_top">
+					<img src="images/index-images/木兮地板.png" alt="news image" class="img-fluid">
+				</div>
+				<div class="col-lg-7 news_top1">
+					<h5><a href="html/muxi.html">第九次作业，木兮地板</a></h5>
+					<p class="mt-3">运用bootstrap3，制作响应式页面</p>
+				</div>
+			</div>
+
+		</div>
+		<!-- //news -->
+		<!-- contact -->
+		<section class="wedo" id="contact">
+			<h3 class="w3_head mb-4 text-left">联系我</h3>
+			<p class="iner mt-md-5 text-left"> 海内存知己，天涯若比邻。 </p>
+			<p class="iner mt-md-2 text-left"> 相遇即是缘分，小哥哥小姐姐，留个言吧。（骚瑞啦，亲，此功能暂未开放） </p>
+			<div class="contact_grid_right mt-5 mx-auto text-left">
+				<form action="#" method="post">
+					<div class="row contact_top">
+						<div class="col-sm-12">
+							<h5>邮箱：1411523802@qq.com</h5>
+						</div>
+						<div class="col-sm-12">
+							<h5>Q&nbsp&nbspQ：1411523802</h5>
+						</div>
+						<div class="col-sm-12">
+							<h5>微信：hwj1411523802</h5>
+						</div>
+						<div class="col-sm-12">
+							<h5>电话：电话就免了吧</h5>
+						</div>
+					</div>
+					<textarea name="Message" onfocus="this.value = '';"
+						onblur="if (this.value == '') {this.value = '请在此留言...';}" required="">请在此留言...</textarea>
+					<button type="submit" class="btn" onclick="alert('亲，这边建议是不要点的哦，点了也留不了言的哦')">留言（别点）</button>
+					<button type="reset" class="btn">重置</button>
+					<div class="clearfix"></div>
+				</form>
+			</div>
+		</section>
+		<!-- //contact -->
+	</div>
+	<div class="return">
+		<a href="#home" class="scroll"><i class="iconfont icon-arrow-up"></i></a>
+	</div>
+
 </body>
+
 </html>

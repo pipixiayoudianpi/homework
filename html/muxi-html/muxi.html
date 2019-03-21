@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>木兮地板</title>
+  <link rel="stylesheet" href="../css/muxi-top.css">
+  <link rel="stylesheet" href="../css/muxi-bottom.css">
+  <link rel="stylesheet" href="../css/muxi-main.css">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/jquery/3.3.1/jquery.js">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- <nav class="navbar custom" role="navigation" style="margin-bottom:0;" >
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#"><img src="../images/logo0.png"></a>
+    </div>
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="navbar-right">
+        <li role="presentation"><a class="active" href="muxi-main.html" target="iframepage">首页</a></li>
+        <li role="presentation"><a href="muxi-about.html" target="iframepage">关于公司</a></li>
+        <li role="presentation"><a href="#">产品展示</a></li>
+        <li role="presentation"><a href="#">招商加盟</a></li>
+        <li role="presentation"><a href="#">联系我们</a></li>
+      </ul>
+    </div>
+  </nav> -->
+  <div class="mx_navigation" id="mx_navigation">
+    <div class="mx_center mx_width">
+      <div class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navItem"
+              aria-expanded="false">
+              <span class="sr-only">toggle</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://chengbenchao.gitee.io/muxi/#"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="navItem">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="select"><a href="muxi-main.html" target="iframepage">首页</a></li>
+              <li><a href="muxi-about.html" target="iframepage">关于公司</a></li>
+              <li><a href="javascript:void(0)">产品展示</a></li>
+              <li><a href="javascript:void(0)">招商加盟</a></li>
+              <li><a href="javascript:void(0)">联系我们</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-show">
+    <iframe src="muxi-main.html" name="iframepage" id="iframeId" frameborder="0"></iframe>
+  </div>
+  <div class="bottom-outside">
+    <div class="bottom">
+      <div class="bottom-logo col-md-3 col-xs-12">
+        <a href="#"><img src="../images/logo.ico"></a>
+      </div>
+      <div class="bottom-go col-md-6 col-xs-12">
+        <div class="top">
+          <div class="col-md-3 col-xs-12">
+            <a href="muxi-about.html" target="iframepage">关于公司</a>
+          </div>
+          <div class="col-md-3 col-xs-12">
+            <a href="#">产品展示</a>
+          </div>
+          <div class="col-md-3 col-xs-12">
+            <a href="#">招商加盟</a>
+          </div>
+          <div class="col-md-3 col-xs-12">
+            <a href="#">联系我们</a>
+          </div>
+        </div>
+        <div class="bottom">
+          <div>
+            <p>版权所有©木兮实业有限公司 鄂ICP备18011650号</p>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-phone col-md-3 col-xs-12">
+        <p><i></i>027-83622296</p>
+        <p><i></i>13387576980</p>
+        <p><i></i>yt15yi@163.com</p>
+      </div>
+    </div>
+  </div>
+  <script>
+    $(".navbar-right li").click(function () {
+      $(".navbar-right li").removeClass("select");
+      $(this).addClass("select");
+    })
+  </script>
+
+</body>
+
+</html>
